@@ -1,0 +1,29 @@
+using System;
+
+namespace Atividade_1___J
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Coloque seus dados: ");
+			Console.WriteLine("Estado: ");
+				string estado = Convert.ToString(Console.ReadLine());
+			Console.WriteLine("Cidade: ");
+				string Cidade = Convert.ToString(Console.ReadLine());
+			Console.WriteLine("Bairro: ");
+			string bairro = Convert.ToString(Console.ReadLine());
+			Console.WriteLine("Rua: ");
+			string rua = Convert.ToString(Console.ReadLine());
+			Console.WriteLine("Numero: ");
+			string numero = Convert.ToString(Console.ReadLine());
+			
+			Console.WriteLine("Seu estado é: "+ estado +" sua cidade é: "+ Cidade+" seu bairro é: "+ bairro +" sua rua é: "+ rua +" e o seu número é: "+numero);
+			
+			// TODO: Implement Functionality Here
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
