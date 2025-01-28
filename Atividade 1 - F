@@ -1,0 +1,20 @@
+using System;
+
+namespace Atividade_1___F
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite um numero decimal: ");
+			
+			double numero = Convert.ToDouble(Console.ReadLine());
+			
+			Console.WriteLine("O numero digitado é : "+ numero);
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
