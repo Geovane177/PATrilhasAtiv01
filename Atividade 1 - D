@@ -1,0 +1,31 @@
+using System;
+
+namespace Atividade_1___D
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			bool escolha = true;
+			
+			Console.WriteLine("Digite 'sim' ou 'não'");
+			
+			string alternativa = Convert.ToString(Console.ReadLine());
+			
+			if (alternativa == "sim") {
+				escolha = true;
+			}else if (alternativa == "não") {
+				escolha = false;
+			}
+			
+			Console.WriteLine("O valor é: "+ escolha);
+			
+			
+			
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
