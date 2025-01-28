@@ -1,0 +1,20 @@
+using System;
+
+namespace Atividade_1___E
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite 1 caractere: ");
+			
+			
+			char caractere = Convert.ToChar(Console.ReadLine());
+			
+			Console.WriteLine("O caractere digitado é: "+ caractere);
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
